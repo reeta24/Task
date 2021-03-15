@@ -1,0 +1,28 @@
+<html>
+    <title></title>
+    <script type="text/javascript" src="config.js"></script>
+    <head>
+        
+    </head>
+    <body>
+        <div id="container">
+            <h1>Form</h1>
+            <form id="myform" onsubmit="event.preventDefault(); " >
+                <label>FIrstName</label>
+                <input type="text" name="fname" id="firstName" placeholder="enter the name">
+                <p id="fname_error" style="color: red;"></p>
+                <label>LastName</label>
+                <input type="text" name="lname" id="lname" placeholder="enter the name">
+                <p id="lname_error" style="color: red;"></p>
+                <label>Email</label>
+                <input type="text" name="email" id="email" placeholder="enter the Email">
+                <p id="email_error" style="color: red;"></p>
+                <label>password</label>
+                <input type="password" name="password" id="password" placeholder="enter the password">
+                <p id="password_error" style="color: red;"></p>
+                <button onsubmit="myFunction()">submit</button>
+            </form>
+        </div>
+    </body>
+   
+</html>
