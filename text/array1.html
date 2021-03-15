@@ -1,0 +1,22 @@
+<html>
+    <head>
+        <title></title>
+    </head>
+    <body>
+        <p id="demo"></p>
+    </body>
+    <script>
+        var data=[{
+            "firstname":"abas",
+            "lastname": "yadav",
+            "age" : 20,
+            "discription": "all the data display"
+          
+        }];
+        data.forEach(_res =>{
+
+            console.log(_res);
+            document.getElementById("demo").innerHTML="display data" + _res;
+        })
+    </script>
+</html>

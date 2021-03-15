@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        
+    </head>
+    <body>
+        <p id="demo">Home</p>
+       
+    </body>
+   <script>
+       function home(abc){
+           document.getElementById("demo").innerHTML=abc;
+       }
+    //    function first(){
+    //        home("hello");
+
+    //    }
+    //    function second(){
+    //      home("hy");
+    //    }
+    //    first();
+    //    second();
+    function myfun(a,b,mycallback){
+   let sum=a+b;
+      mycallback(sum);
+    }
+    myfun(2,3,home);
+   </script>
+</html>

@@ -1,0 +1,19 @@
+<html>
+<body>
+<p>A variable inside a block will not redeclare the variable outside the block:.</p>
+
+<p id="demo"></p>
+<button id="submit" value="button" onclick=" myFunction();">click</button>
+</body>
+
+<script>
+    let name= "ritu";
+   {
+     let name="parmar"
+   }
+    
+    function myFunction() {
+      document.getElementById("demo").innerHTML = "I can display " + name;
+    }
+    </script>
+</html>
